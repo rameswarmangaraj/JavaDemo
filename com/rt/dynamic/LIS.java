@@ -17,7 +17,7 @@ public class LIS {
         }
         for (int i = 1; i < arr.length; i++) {
             for (int j = i - 1; j >= 0; j--) {
-                if (arr[i] > arr[j] && res[j + 1] >= res[i]) {
+                if (arr[i] > arr[j] && res[j]+1 >= res[i]) {
                     res[i] = res[j] + 1;
                 }
             }
