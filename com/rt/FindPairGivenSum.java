@@ -18,7 +18,7 @@ public class FindPairGivenSum {
         for (Integer e : arr) {
             int d=gSum-e;
             if(hs.contains(d)){
-                System.out.println(e+"-"+d);
+                System.out.println(e+","+d);
             }
             hs.add(e);
         }
