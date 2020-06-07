@@ -5,7 +5,7 @@ import java.util.Collections;
 
 public class LIS {
     public static void main(String[] args) {
-        int arr[] = { 3, 10, 2, 1, 20 };
+        int arr[] = { 3, 10, 2, 1, 20 };// 3 10 20
         int len = getLenLIS(arr);
         System.out.println(len);
     }
