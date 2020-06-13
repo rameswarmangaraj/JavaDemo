@@ -1,4 +1,4 @@
-package com.rt;
+package com.rt.competative;
 
 public class SumofKConsucativeEle {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.rt;
+package com.rt.sorting;
 
 import java.util.Arrays;
 

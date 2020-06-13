@@ -1,4 +1,4 @@
-package com.rt;
+package com.rt.competative;
 public class LeadersInArray {
     public static void main(String[] args) {
        int arr[]={7,10,4,3,6,5,2};

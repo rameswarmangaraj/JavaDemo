@@ -1,4 +1,4 @@
-package com.rt;
+package com.rt.hashing;
 
 public class LinearProbing {
     public static void main(String[] args) {

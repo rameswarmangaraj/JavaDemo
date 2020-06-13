@@ -1,4 +1,4 @@
-package com.rt;
+package com.rt.competative;
 import java.util.Arrays;
 
 public class ArrayRotation {

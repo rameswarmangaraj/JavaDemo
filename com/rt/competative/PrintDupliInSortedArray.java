@@ -1,4 +1,4 @@
-package com.rt;
+package com.rt.competative;
 
 
 public class PrintDupliInSortedArray {
