@@ -36,7 +36,7 @@ public class Queen {
                 return false;
             }
         }
-        for (int i = r,j=c; i < arr.length && j<arr[0].length; i++,j++) {
+        for (int i = r,j=c; i < arr.length && j<arr.length; i++,j++) {
             if(arr[i][j]==1){
                 return false;
             }
