@@ -36,16 +36,16 @@ public class Queen {
                 return false;
             }
         }
-        for (int i = r,j=c; i < arr.length && j<arr.length; i++,j++) {
-            if(arr[i][j]==1){
-                return false;
-            }
-        }
-        for (int i = r,j=c; i < arr.length && j>=0; i++,j--) {
-            if(arr[i][j]==1){
-                return false;
-            }
-        }
+        // for (int i = r,j=c; i < arr.length && j<arr.length; i++,j++) {
+        //     if(arr[i][j]==1){
+        //         return false;
+        //     }
+        // }
+        // for (int i = r,j=c; i < arr.length && j>=0; i++,j--) {
+        //     if(arr[i][j]==1){
+        //         return false;
+        //     }
+        // }
         for (int i = r,j=c; i >=0 && j<arr.length ; i--,j++) {
             if(arr[i][j]==1){
                 return false;
